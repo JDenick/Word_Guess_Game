@@ -7,15 +7,39 @@
 </head>
 
 <body>
-</body>
-    <div class="container">
-        <header>
-            <h1>Hangman Game</h1>
-                <br>
+<div class="container">
+    <header>
+        <h1>Hangman Game</h1>
+            <br>
             <h3>Sports Legends</h3>
-        </header>
-        <div class="underscore">_ _ _ _</div>
-        <div class="rightGuess">right guess</div>
-        <div class="wrongGuess">wrong guess</div>
+    </header>
+               
+    <div class="underscore">
+        <h1>Word to Guess</h1>
+        <H2 id=wordToGuess>_ _ _ _</H2>
     </div>
+                
+    <div class="wrongGuesses">Wrong Guesses:</div>
+                
+    <div class="numGuesses">Guesses Left:
+        <span id="numGuesses"></span>
+    </div>
+
+    <div class="winCounter">Win Count:
+        <span id="winCounter"></span>
+    </div>
+
+    <div class="lossCounter">Loss Count:
+        <span id="lossCounter"></span>
+    </div>
+</div>
+
+
+<script src="assets/javascript/game.js"></script>
+
+
+
+
+
+</body>
 </html>
