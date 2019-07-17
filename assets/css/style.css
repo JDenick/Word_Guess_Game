@@ -1,9 +1,13 @@
+* {
+    background: aqua;
+}
+
 header {
     border: 3px solid black;
     font-size: 20px;
     text-align: center;
     margin: 15px auto;
-    height: 80px;
+    height: 120px;
     width: 80%;
 }
 
@@ -12,7 +16,8 @@ header {
     font-size: 30px;
     text-align: center;
     margin: 40px auto;
-    height: 60px;
+    padding-top: 5px;
+    height: 65px;
     width: 80%;
 }
 
@@ -21,7 +26,8 @@ header {
     font-size: 20px;
     text-align: center;
     margin: 40px auto;
-    height: 60px;
+    padding-top: 5px;
+    height: 65px;
     width: 80%;
 }
 .numGuesses {
@@ -29,6 +35,7 @@ header {
     font-size: 20px;
     text-align: center;
     margin: 40px auto;
+    padding-top: 5px;
     height: 60px;
     width: 80%;
 }
@@ -38,6 +45,7 @@ header {
     font-size: 20px;
     text-align: center;
     margin: 40px auto;
+    padding-top: 5px;
     height: 60px;
     width: 80%;
 }
@@ -47,6 +55,7 @@ header {
     font-size: 20px;
     text-align: center;
     margin: 40px auto;
+    padding-top: 5px;
     height: 60px;
     width: 80%;
 }
